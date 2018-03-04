@@ -30,8 +30,9 @@ which should open a new tab in your browser with the Jupyter Notebook environmen
 
 ## Notebooks
 
-Links point to https://nbviewer.jupyter.org for running a notebook off github directly.
-
-Location | Purpose | nbviewer
+Location | Purpose | Binder Link
 --- | --- | ---
-`src/test.pipynb` | initial test | [link](http://nbviewer.jupyter.org/github/fmilitao/jupyter-probe/blob/master/src/test.ipynb)
+`src/test.ipynb` | initial test | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fmilitao/jupyter-probe/master?filepath=src%2Ftest.ipynb)
+
+Binder links point to https://mybinder.org.
+You can also try https://nbviewer.jupyter.org/ to see a non-interactive notebook rendered online.
