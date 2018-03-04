@@ -27,3 +27,11 @@ Invoke Jupyter with the target file:
     jupyter notebook <FILE>
 
 which should open a new tab in your browser with the Jupyter Notebook environment.
+
+## Notebooks
+
+Links point to https://nbviewer.jupyter.org for running a notebook off github directly.
+
+Location | Purpose | nbviewer
+--- | --- | ---
+`src/test.pipynb` | initial test | [link](http://nbviewer.jupyter.org/github/fmilitao/jupyter-probe/blob/master/src/test.ipynb)
