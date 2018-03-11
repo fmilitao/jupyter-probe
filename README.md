@@ -32,7 +32,7 @@ which should open a new tab in your browser with the Jupyter Notebook environmen
 
 Location | Purpose | Binder Link
 --- | --- | ---
-`src/test.ipynb` | initial test | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fmilitao/jupyter-probe/master?filepath=test.ipynb)
+`test.ipynb` | initial test | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fmilitao/jupyter-probe/master?filepath=test.ipynb)
 
 Binder links point to https://mybinder.org.
 You can also try https://nbviewer.jupyter.org/ to see a non-interactive notebook rendered online.
