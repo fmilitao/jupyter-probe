@@ -33,6 +33,11 @@ which should open a new tab in your browser with the Jupyter Notebook environmen
 Location | Purpose | Binder Link
 --- | --- | ---
 `test.ipynb` | initial test | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fmilitao/jupyter-probe/master?filepath=test.ipynb)
+`boyer-moore-string-search.ipynb` | Boyer-Moore algorithm | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fmilitao/jupyter-probe/master?filepath=boyer-moore-string-search.ipynb)
 
 Binder links point to https://mybinder.org.
 You can also try https://nbviewer.jupyter.org/ to see a non-interactive notebook rendered online.
+
+## Generating HTML
+
+    jupyter nbconvert --to html <NOTEBOOK>
