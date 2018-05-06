@@ -11,16 +11,13 @@ python3 -m venv ${VENV_DIR}
 
 source ${VENV_DIR}/bin/activate
 
-# The alternative would be to use: pip install -r requirements.txt
-# with all requirements placed in that file. Since currently we only have one, not point in doing that.
-pip3 install jupyter tabulate
+pip3 install -r requirements.txt
 
 # Needed to make sure `jupyter` command is available
 source ${VENV_DIR}/bin/activate
 
 # https://stackoverflow.com/questions/39324039/highlight-typos-in-the-jupyter-notebook-markdown
 # For spellchecker in the notebook
-pip3 install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 jupyter nbextension enable spellchecker/main
 
