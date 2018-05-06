@@ -24,3 +24,5 @@ jupyter nbextension enable spellchecker/main
 # show line numbers by default
 # https://stackoverflow.com/questions/20197471/how-to-display-line-numbers-in-ipython-notebook-code-cell-by-default
 echo 'IPython.Cell.options_default.cm_config.lineNumbers = true;' >> $(find . -iname "custom.js" | grep -v test)
+
+./postBuild
